@@ -6,10 +6,10 @@ Not every gun is covered i mostly changed those that used the base rifle shot/in
 
 ## Load Order
 
-Core
-Combat Extended
-Combat Extended Guns
-Gun Sound Pack
+Core  
+Combat Extended  
+Combat Extended Guns  
+This Mod
 
 ## Credits
 
