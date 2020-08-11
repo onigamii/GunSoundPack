@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- === Taurus Judge === -->
+  <SoundDef>
+    <defName>Shot_CEG_TaurusJudge</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_TaurusJudge</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === USAS-12 === -->
+  <SoundDef>
+    <defName>Shot_CEG_USAS12</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_USAS12</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === SKS === -->
+  <SoundDef>
+    <defName>Shot_CEG_SKS</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_SKS</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === AKS-74U === -->
+  <SoundDef>
+    <defName>Shot_CEG_AKS74U</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_AKS74U</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === AK-12 ===-->
+  <SoundDef>
+    <defName>Shot_CEG_AK12</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_AK12</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === AK-47 === -->
+  <SoundDef>
+    <defName>Shot_CEG_AK47</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_AK47</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === FN FAL === -->
+  <SoundDef>
+    <defName>Shot_CEG_FNFAL</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_FNFAL</clipPath>
+          </li>
+        </grains>
+        <volumeRange>30~30</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === SVD Dragunov === -->
+  <SoundDef>
+    <defName>Shot_CEG_Dragunov</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_Dragunov</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Tac-50 === -->
+  <SoundDef>
+    <defName>Shot_CEG_TAC50</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_TAC50</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === RPD === -->
+  <SoundDef>
+    <defName>Shot_CEG_RPD</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_RPD</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.936413</min>
+          <max>1.042391</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === M60 === -->
+  <SoundDef>
+    <defName>Shot_CEG_M60</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_M60</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === PKM === -->
+  <SoundDef>
+    <defName>Shot_CEG_PKM</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_PKM</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === PTRS-41 === -->
+  <SoundDef>
+    <defName>Shot_CEG_PTRS41</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_PTRS41</clipPath>
+          </li>
+        </grains>
+        <volumeRange>43~43</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Milkgor MGL === -->
+  <SoundDef>
+    <defName>Shot_CEG_Milkor</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_Milkor</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === M72 LAW === -->
+  <SoundDef>
+    <defName>Shot_CEG_M72LAW</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_M72LAW</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === RPG-7 === -->
+  <SoundDef>
+    <defName>Shot_CEG_RPG7</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_RPG7</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+	</SoundDef>
+
+  <!-- === S-14 Charge SMG === -->
+  <SoundDef>
+    <defName>Shot_CEG_ChargeSMG</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtendedGuns/Shot/Shot_ChargeSMG</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+	</SoundDef>
+
+</Defs>

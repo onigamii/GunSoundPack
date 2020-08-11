@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- === Frag Grenade === -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Proj_GrenadeFrag"]/projectile</xpath>
+
+    <value>
+      <soundExplode>FragGrenade_Explode</soundExplode>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Weapon_GrenadeFrag"]/soundInteract</xpath>
+
+    <value>
+      <soundInteract>Interact_GSP_Grenade</soundInteract>
+    </value>
+  </Operation>
+
+  <!-- === Molotov === -->
+  <!-- === EMP Grenade === -->
+
+  <!-- === Frag / EMP === -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="Weapon_GrenadeFrag"]/verbs/li/soundCast |
+      /Defs/ThingDef[defName="Weapon_GrenadeEMP"]/verbs/li/soundCast
+    </xpath>
+
+    <value>
+      <soundCast>Throw_GSP_Grenade</soundCast>
+    </value>
+  </Operation>
+
+</Patch>

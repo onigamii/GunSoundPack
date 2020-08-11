@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended Guns</li>
+    </mods>
+
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- === Taurus Judge === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_TaurusJudge"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_TaurusJudge</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_TaurusJudge"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_Redhawk</soundInteract>
+          </value>
+        </li>
+
+        <!-- === USAS-12 === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_USASTwelve"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_USAS12</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_USASTwelve"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_USAS12</soundInteract>
+          </value>
+        </li>
+        
+        <!-- === SKS === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_SKS"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_SKS</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_SKS"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_SKS</soundInteract>
+          </value>
+        </li>
+
+        <!-- === AKS-74U === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_AKSSeventyFourU"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_AKS74U</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_AKSSeventyFourU"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_AKS</soundInteract>
+          </value>
+        </li>
+
+        <!-- === AK-12 ===-->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_AKTwelve"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_AK12</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_AKTwelve"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_AKS</soundInteract>
+          </value>
+        </li>
+
+        <!-- === AK-47 === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_AKFortySeven"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_AK47</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_AKFortySeven"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_AKS</soundInteract>
+          </value>
+        </li>
+
+        <!-- === FN FAL === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_FNFAL"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_FNFAL</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_FNFAL"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_FNFAL</soundInteract>
+          </value>
+        </li>
+
+        <!-- === SVD === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_SVD"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_Dragunov</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_SVD"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_Dragunov</soundInteract>
+          </value>
+        </li>
+
+        <!-- === Tac-50 === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_TacFifty"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_TAC50</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_TacFifty"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_TAC50</soundInteract>
+          </value>
+        </li>
+
+        <!-- === RPD === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_RPD"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_RPD</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_RPD"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_RPD</soundInteract>
+          </value>
+        </li>
+
+        <!-- === M60 === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_MSixty"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_M60</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_MSixty"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_M60</soundInteract>
+          </value>
+        </li>
+
+        <!-- === PKM === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_PKM"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_PKM</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_PKM"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_PKM</soundInteract>
+          </value>
+        </li>
+
+        <!-- === PTRS-41 === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_PTRS"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_PTRS41</soundCast>
+          </value>
+        </li>
+
+        <!-- === Milkgor MGL === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_MilkorMGL"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_Milkor</soundCast>
+          </value>
+        </li>
+
+        <!-- === M72 LAW === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_M72LAW"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_M72LAW</soundCast>
+          </value>
+        </li>
+
+        <!-- === RPG-7 === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_RPGSeven"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_RPG7</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_RPGSeven"]/soundInteract</xpath>
+
+          <value>
+            <soundInteract>Interact_CEG_RPG7</soundInteract>
+          </value>
+        </li>
+
+        <!-- === S-14 Charge SMG === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_ChargeSMG"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_CEG_ChargeSMG</soundCast>
+          </value>
+        </li>
+
+        <!-- === R-11 Precision Rifle === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_ChargeSniperRifle"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_R15Rifle</soundCast>
+          </value>
+        </li>
+
+        <!-- === L-20 Charge LMG === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="CE_Gun_ChargeLMG"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_R15Rifle</soundCast>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

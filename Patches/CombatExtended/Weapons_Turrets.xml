@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- === M240B / KPV === -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[@Name="BaseTurretGun"]/soundInteract</xpath>
+
+      <value>
+        <soundInteract>Interact_CE_Turrets</soundInteract>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>

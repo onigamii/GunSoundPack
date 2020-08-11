@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- === Flashbang === -->
+  <SoundDef>
+    <defName>FlashbangGrenade_Explode</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtended/Grenades/FlashbangGrenade</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Smoke Grenade === -->
+  <SoundDef>
+    <defName>SmokeGrenade_Explode</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CombatExtended/Grenades/SmokeGrenade</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

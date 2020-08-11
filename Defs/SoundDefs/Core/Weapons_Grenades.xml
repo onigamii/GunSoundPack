@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- === Interact Grenade === -->
+  <SoundDef>
+    <defName>Interact_GSP_Grenade</defName>  
+    <context>MapOnly</context>   
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Core/Grenades/Grenade_PinOut</clipPath>
+          </li>
+        </grains>      
+        <!-- <volumeRange>23.91304~23.91304</volumeRange>       -->
+        <pitchRange>0.9576087~1.084783</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Throw Grenade === -->
+  <SoundDef>
+    <defName>Throw_GSP_Grenade</defName>  
+    <context>MapOnly</context>   
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Core/Grenades/Grenade_Throw</clipPath>
+          </li>
+        </grains>      
+        <!-- <volumeRange>23.91304~23.91304</volumeRange>       -->
+        <pitchRange>0.9576087~1.084783</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Frag Grenade === -->
+  <SoundDef>
+    <defName>FragGrenade_Explode</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Core/Grenades/FragGrenade</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- === Molotov === -->
+  <!-- === EMP Grenade === -->
+
+</Defs>
