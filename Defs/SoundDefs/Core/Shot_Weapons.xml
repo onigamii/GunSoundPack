@@ -36,7 +36,7 @@
             <clipPath>Core/Shot/Shot_Redhawk</clipPath>
           </li>
         </grains>
-        <volumeRange>40~40</volumeRange>
+        <volumeRange>30~30</volumeRange>
         <pitchRange>
           <min>1</min>
           <max>1</max>
