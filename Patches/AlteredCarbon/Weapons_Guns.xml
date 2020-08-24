@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimworld: Altered Carbon</li>
+    </mods>
+
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- === Bullpup / Quickfire Pistols === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="AC_Gun_BullpupPistol" or defName="AC_Gun_QuickfirePistol"]/soundInteract</xpath>
+
+          <value>
+            <soundCast>Interact_M1911</soundCast>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="AC_Gun_BullpupPistol" or defName="AC_Gun_QuickfirePistol"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_M1911</soundCast>
+          </value>
+        </li>
+
+        <!-- === Shock PDW / MAC Revolver / MAC Rifle === -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="AC_Gun_MACRevolver" or defName="AC_Gun_ShockPDW" or defName="AC_Gun_MACRifle"]/verbs/li/soundCast</xpath>
+
+          <value>
+            <soundCast>Shot_R15Rifle</soundCast>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
